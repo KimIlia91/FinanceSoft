@@ -12,7 +12,7 @@ namespace Benchmark
     [RankColumn]
     public class ReverseStringBanchmark
     {
-        private const string testString = "Hello world!";
+        private const string testString = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.";
         private readonly Reverse _reverseString = new();
 
         [Benchmark]
